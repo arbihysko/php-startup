@@ -6,7 +6,7 @@ A php mvc startup for web pages
 #2 The controller folder contains files that controll the data send to the client from the server
 
 #3 Libs is the folder that contains the classes created, bootstrap manages the routing, creates the controllers and loads the models.
-   Database establishes a connestion to the database using the PDO extention and the information given in ./config/database.php
+   Database establishes a connestion to the database using the PDO extention and the information given in ./config/database.php.
    Session has functions for creating, naming and destroying sessions.
    View is the file that senders the view template to the page.
 
@@ -17,4 +17,3 @@ A php mvc startup for web pages
 #6 Views containss the page templates for the website
    The partial folder contains the header and footer template for the pages.
    
-Thank you for using this project.
